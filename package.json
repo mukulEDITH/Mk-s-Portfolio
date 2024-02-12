@@ -20,7 +20,8 @@
     "react-test-renderer": "^16.10.2",
      "react-toastify": "^10.0.4",
     "react-twitter-embed": "3.0.3",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "sweetalert2": "^11.10.5"
   },
   "scripts": {
     "predeploy": "npm run build",
