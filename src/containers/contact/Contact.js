@@ -6,8 +6,39 @@ import {Fade} from "react-reveal";
 
 import StyleContext from "../../contexts/StyleContext";
 
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+import 'sweetalert2/src/sweetalert2.scss'
+
+
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+   const form = useRef();
+ 
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_r30iqfb', 'template_mmq0bk2', form.current, {
+        publicKey: 'on8BNR1FzauAZQ7DI',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          Swal.fire({
+            title: 'Success!',
+            text: 'You have successfully submmited the form.',
+            icon: 'success',
+            confirmButtonText: 'Okay'
+          })
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+             
+      );form.current.reset(); 
+  };
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -23,6 +54,14 @@ export default function Contact() {
             >
               {contactInfo.subtitle}
             </p>
+                 <div class="cform">
+              <form ref={form} onSubmit={sendEmail}>
+                <input type="text" name="user_name" placeholder="Name" id="name" />
+                <input type="email" name="user_email" placeholder="Email id" id="email" />
+                <textarea name="message" placeholder="Message" id="message" />
+                <input className ="sendbtn" type="submit" value="Send" />
+              </form>
+            </div>
             <div
               className={
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
