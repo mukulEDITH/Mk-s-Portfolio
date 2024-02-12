@@ -1,4 +1,5 @@
 import React, {useContext, useRef} from "react";
+import emailjs from '@emailjs/browser';
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { contactInfo} from "../../portfolio";
