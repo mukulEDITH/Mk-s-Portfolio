@@ -59,7 +59,7 @@ export default function Contact() {
               <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name="user_name" placeholder="Name" id="name" />
                 <input type="email" name="user_email" placeholder="Email id" id="email" />
-                <textarea name="message" placeholder="Message" id="message" />
+                <input name="message" placeholder="Message" id="message" />
                 <input className ="sendbtn" type="submit" value="Send" />
               </form>
             </div>
