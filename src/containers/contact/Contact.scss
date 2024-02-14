@@ -38,7 +38,11 @@
 }
 
 .sendbtn{
-  background-color: rgb(82, 83, 111);
+    text-transform: uppercase;
+    color: white;
+    background-color: #55198b;
+    border: 1px solid #55198b;
+    font-weight: bold;
 }
 
 form{
