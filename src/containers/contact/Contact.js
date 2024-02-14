@@ -1,19 +1,18 @@
-import React, {useContext, useRef} from "react";
+import React, { useContext, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { contactInfo} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { contactInfo } from "../../portfolio";
+import { Fade } from "react-reveal";
 
 import StyleContext from "../../contexts/StyleContext";
-
 import Swal from 'sweetalert2/dist/sweetalert2.js'
 import 'sweetalert2/src/sweetalert2.scss'
 
 
 export default function Contact() {
-  const {isDark} = useContext(StyleContext);
-   const form = useRef();
+  const { isDark } = useContext(StyleContext);
+  const form = useRef();
  
 
 
@@ -40,6 +39,7 @@ export default function Contact() {
              
       );form.current.reset(); 
   };
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -55,7 +55,7 @@ export default function Contact() {
             >
               {contactInfo.subtitle}
             </p>
-                 <div class="cform">
+            <div class="cform">
               <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name="user_name" placeholder="Name" id="name" />
                 <input type="email" name="user_email" placeholder="Email id" id="email" />
@@ -92,12 +92,11 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            
-              <img
-                alt="Man working"
-                src={require("../../assets/images/Image_20240109_113339_516.png")}
-              ></img>
-           
+
+            <img
+              alt="Man working"
+              src={require("../../assets/images/Image_20240109_113339_516.png")}
+            ></img>
           </div>
         </div>
       </div>
