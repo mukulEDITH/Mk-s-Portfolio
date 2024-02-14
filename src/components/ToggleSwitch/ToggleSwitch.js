@@ -17,6 +17,7 @@ const ToggleSwitch = () => {
           styleContext.changeTheme();
           setChecked(!isChecked);
         }}
+        class="switchInput"
       />
       <span className="slider round">
         <span className="emoji">{isChecked ? emoji("🌜") : emoji("☀️")}</span>
