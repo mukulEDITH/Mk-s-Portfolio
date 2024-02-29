@@ -27,7 +27,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1vGAF-16-EKVCaeMjoIMprmeqwoRCqCQx/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1zTcvXb0TKoAGWH6VSUrqq7KXmIvpnFLT/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -244,6 +244,17 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://github.com/mukulEDITH/Stock-Detail-API"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/youtbe clone ss.png"),
+      projectName: "Youtube Clone",
+      projectDesc: "Introducing YouTube Clone - your go-to hub for all things video! With a familiar interface and a world of content at your fingertips, dive into a universe of entertainment, education, and exploration.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://youtube-clone-smoky-delta.vercel.app/"
         }
       ]
     }
