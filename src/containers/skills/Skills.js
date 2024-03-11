@@ -16,10 +16,7 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             
-              <img
-                alt=" Working emoji"
-                src={require("../../assets/images/Image_20240109_113339_489.png")}
-              ></img>
+              
            
           </div>
         </Fade>
@@ -30,6 +27,13 @@ export default function Skills() {
             >
               {skillsSection.title}{" "}
             </h1>
+
+            <img
+                alt=" Working emoji"
+                src={require("../../assets/images/Image_20240109_113339_489.png")}
+              ></img>
+
+              
             <p
               className={
                 isDark
