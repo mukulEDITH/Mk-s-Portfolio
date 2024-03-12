@@ -119,8 +119,10 @@
   .greeting-main {
     display: block;
   }
-  .greeting-image-div {
-    height: 256px;
+  .greeting-image-div > img {
+    padding-left: 0px;
+    height: 100%; 
+    margin-top: 0px;
   }
 }
 
