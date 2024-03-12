@@ -1,8 +1,6 @@
 @import "../../_globalColor";
 
-.contact-div-main {
-  display: flex;
-}
+ 
 
 .dark-mode a {
   color: $textColorDark;
@@ -42,6 +40,7 @@
 }
 
 form{
+  width: 80%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -65,43 +64,17 @@ form{
 }
 
 .contact-image-div > img {
-  padding-left: 51px;
+  padding-left: 900px;
   max-width: 100%;
   height: auto;
-  margin-left: 1.5rem;
-  margin-top: -4rem;
+  margin-left: -2rem;
+  margin-top: -26rem;
 }
 
 .contact-image-div:hover img {
   filter: drop-shadow(8px 10px 4px #7a7a80);
   transition: filter 300ms ease-in-out;
 }
-
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-
 
 
 /* Media Query */
@@ -133,7 +106,12 @@ form{
     font-size: 20px;
   }
 
-  .contact-image-div {
-    height: 256px;
+  .contact-image-div  > img {   
+  padding-left: 0px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 0rem;
+  margin-top: 0rem;
+ 
   }
 }
