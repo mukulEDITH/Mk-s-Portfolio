@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+ @import "../../_globalColor";
 
 .skills-main-div {
  
@@ -92,6 +92,12 @@
   .skills-main-div {
     flex-direction: column;
   }
+
+
+  .skills-text-div > img {
+    width: 104%;
+  }
+
   .skills-text-div {
     margin-left: 0px;
     margin: 20px;
@@ -106,7 +112,7 @@
   .skills-image-div > img{
     width: 104%;
     height: 256px;
-    padding-left: 0px;
+    
   }
   .skills-att-image > img {
      padding-left: 0px; 
