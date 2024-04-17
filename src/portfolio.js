@@ -27,7 +27,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hIAn1hAMQRSCxs9Wb-WoKikttwolFgEg/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1zTcvXb0TKoAGWH6VSUrqq7KXmIvpnFLT/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -237,13 +237,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/stock api.jpg"),
-      projectName: "Stock detail API",
-      projectDesc: "Users can add stock details, such as price, quantity, and date, and retrieve stock information based on a specific date, providing a comprehensive stock detail management system. ",
+      image: require("./assets/images/salary icon.webp"),
+      projectName: "Salary Calculator",
+      projectDesc: "Introducing a user-friendly and efficient salary calculator designed to simplify your financial planning! This meticulously crafted tool allows you to quickly and accurately calculate your net monthly or annual salary after deductions, including taxes, insurance, and any other deductions relevant to your income. ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/mukulEDITH/Stock-Detail-API"
+          url: "https://salary-calculator-nine.vercel.app/"
         }
       ]
     },
@@ -257,7 +257,17 @@ const bigProjects = {
           url: "https://youtube-clone-smoky-delta.vercel.app/"
         }
       ]
-    }
+    } ,{
+      image: require("./assets/images/stock api.jpg"),
+      projectName: "Stock detail API",
+      projectDesc: "Users can add stock details, such as price, quantity, and date, and retrieve stock information based on a specific date, providing a comprehensive stock detail management system. ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/mukulEDITH/Stock-Detail-API"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
