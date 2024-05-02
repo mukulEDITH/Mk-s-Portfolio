@@ -237,7 +237,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Image_20240109_113339_489.png"),
+      image: require("./assets/images/salary icon.webp"),
       projectName: "Salary Calculator",
       projectDesc: "Introducing a user-friendly and efficient salary calculator designed to simplify your financial planning! This meticulously crafted tool allows you to quickly and accurately calculate your net monthly or annual salary after deductions, including taxes, insurance, and any other deductions relevant to your income. ",
       footerLink: [
