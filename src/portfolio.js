@@ -41,7 +41,7 @@ const socialMediaLinks = {
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  instagram:"https://www.instagram.com/mukulkaushalll/?hl=en",
+  instagram:"https://www.linkedin.com/safety/go?url=https%3A%2F%2Fwww.instagram.com%2Fmukulkaaushal%3Figsh%3DMWNkeGx1dzhhanlibg%3D%3D&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-NmM3MDk0MTctZmU3NC00MTk3LTk2MTgtZWNiOGQ2ZWI3MWZmXzAxMA%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BO2zZCcaTTh%2BZFqgq5ZkD2w%3D%3D",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
