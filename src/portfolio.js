@@ -225,6 +225,18 @@ const bigProjects = {
   subtitle: "Developed some projects based on MERN stack andJs tools.",
   projects: [
     {
+      image: require("./assets/images/web mainpage.png"),
+      projectName: "Cartoonpanti Apparels Catalouge",
+      projectDesc: "This project aims to develop a Ui experience model using Next.js, React.js, and JavaScript.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://cartoonpanti.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/backenndLogin.jpg"),
       projectName: "Back-end Login Authentication",
       projectDesc: "This project aims to develop a back-end login authentication system using Node.js, Mongoose,MongoDB, React.js, and JavaScript.",
