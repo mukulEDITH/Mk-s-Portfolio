@@ -41,7 +41,7 @@ const socialMediaLinks = {
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  instagram:"",https://www.instagram.com/mukulkaushalll?igsh=MWNkeGx1dzhhanlibg==
+  instagram:"https://www.instagram.com/mukulkaushalll?igsh=MWNkeGx1dzhhanlibg==",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
